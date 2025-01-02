@@ -18,32 +18,3 @@ Using Mediator as a middleware dependency centralizes the handling of cross-cutt
 
 ### Improved Testability
 The request pipeline and Mediator pattern enhance testability by allowing easy isolation of components for unit testing.
-
-## YouTube Video
-
-[![Watch the implementation with explanation video in Arabic](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=m3eYy22qNvs)
-
-## Getting Started
-
-1. Clone the repository.
-2. Install .NET 8 SDK.
-3. Build and run the project using `dotnet run`.
-
-
-## Examples
-
-*Figure 1: Request Pipeline with Mediator Diagram*
-<img src="https://github.com/huzcodes/Mediator.CQRS.DCD/blob/main/Assets/Request Pipeline.png" align="center" style="width: 100%" />
-
-*Figure 2: Mediator Middleware Central Dependency Diagram*
-<img src="https://github.com/huzcodes/Mediator.CQRS.DCD/blob/main/Assets/Central Dependency on Mediator Pipeline .png" align="center" style="width: 100%" />
-
-## Contributing
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature`)
-3. Make your changes.
-4. Commit your changes (`git commit -am 'Add new feature'`)
-5. Push to the branch (`git push origin feature`)
-6. Create a new Pull Request.
-
